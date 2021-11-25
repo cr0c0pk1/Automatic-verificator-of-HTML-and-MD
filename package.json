@@ -12,10 +12,10 @@
     "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "ls-lint"
+    "test": "ls-lint",
+    "commitizen": "cz"
   },
   "pre-commit": "test",
-  "cm": "cz",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD.git"
@@ -28,7 +28,8 @@
   "homepage": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": true
     }
   }
 }
