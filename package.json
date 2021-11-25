@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@ls-lint/ls-lint": "^1.10.0"
+  },
+  "name": "automatic-verificator-of-html-and-md",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD/issues"
+  },
+  "homepage": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD#readme"
+}
