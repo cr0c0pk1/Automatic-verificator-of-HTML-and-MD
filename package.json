@@ -6,7 +6,11 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "pre-commit": "^1.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD/issues"
   },
-  "homepage": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD#readme"
+  "homepage": "https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
