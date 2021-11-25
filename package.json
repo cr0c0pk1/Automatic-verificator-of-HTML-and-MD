@@ -15,6 +15,7 @@
     "test": "ls-lint"
   },
   "pre-commit": "test",
+  "cm": "cz",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cr0c0pk1/Automatic-verificator-of-HTML-and-MD.git"
