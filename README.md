@@ -19,7 +19,7 @@ Used tools:
 
 ### File names
 
-Files must be created in root directory. Convention is *Name - File name*.\
+Files must be created in *essays/* directory. Convention is *Name - File name*.\
 ls-lint checks all .html and .md file names with this
 regex: `regex:[A-Z][a-z]+ - [A-Za-z0-9 -_]+`.\
 ls-lint ignores README.md.

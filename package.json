@@ -13,7 +13,7 @@
     "markdownlint-cli": "^0.30.0"
   },
   "scripts": {
-    "test": "ls-lint && npm exec html-validate \"*.html\" && npx markdownlint-cli \"**/*.md\" --ignore node_modules",
+    "test": "ls-lint && npm exec html-validate \"essays/*.html\" && npx markdownlint-cli \"**/*.md\" --ignore node_modules",
     "commitizen": "npm test && cz"
   },
   "pre-commit": "test",
